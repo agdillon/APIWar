@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+#mycard{
+  display: inline-block;
+  width: 350px;
+}
+
+#yourcard{
+  display: inline-block;
+  width: 350px;
+}
+
+button{
+  font-size: medium;
+}
