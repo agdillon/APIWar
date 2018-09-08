@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     axios.get(`https://deckofcardsapi.com/api/deck/${deckID}/draw/?count=1`)
       .then(function(response) {
-        console.log(response.data)
         let cardImg = document.createElement("img")
         cardImg.setAttribute("src", response.data.cards[0].image)
         myCardDiv.appendChild(cardImg)
